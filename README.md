@@ -6,54 +6,54 @@ An Expense Tracking Web App built with FastAPI (Backend) and React (Frontend) to
 
 🔹 Core
 
-Add, edit, and delete Income and Expense records.
+--Add, edit, and delete Income and Expense records.
 
-Categorize transactions (e.g., Food, Travel, Salary, Shopping).
+--Categorize transactions (e.g., Food, Travel, Salary, Shopping).
 
-Automatic calculation of Total Balance, Total Income, and Total Expenses.
+--Automatic calculation of Total Balance, Total Income, and Total Expenses.
 
 🔹 Dashboard
 
-Interactive charts for visualizing spending habits.
+--Interactive charts for visualizing spending habits.
 
-Pie chart for category-wise expense distribution.
+--Pie chart for category-wise expense distribution.
 
-Bar chart for monthly expense trends.
+--Bar chart for monthly expense trends.
 
 🔹 Authentication
 
-JWT-based Authentication with secure token storage.
+--JWT-based Authentication with secure token storage.
 
-User Signup & Login with password hashing.
+--User Signup & Login with password hashing.
 
-Protected API routes.
+--Protected API routes.
 
 🔹 Other
 
-Responsive UI with modern animations.
+--Responsive UI with modern animations.
 
-Backend API documentation via Swagger UI (/docs).
+--Backend API documentation via Swagger UI (/docs).
 
 🛠️ Tech Stack
 
-Frontend
+🔹 Frontend
 
-React + Vite
+--React + Vite
 
-Axios for API calls
+--Axios for API calls
 
-Chart.js / Recharts for data visualization
+--Chart.js / Recharts for data visualization
 
-CSS animations for smooth UI
+--CSS animations for smooth UI
 
-Backend
+🔹 Backend
 
-FastAPI
+--FastAPI
 
-MongoDB
+--MongoDB
 
-Pydantic for validation
+--Pydantic for validation
 
-Passlib for password hashing
+--Passlib for password hashing
 
-Python-Jose for JWT handling
+--Python-Jose for JWT handling
