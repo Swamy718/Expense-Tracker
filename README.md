@@ -3,6 +3,7 @@
 An Expense Tracking Web App built with FastAPI (Backend) and React (Frontend) to help users manage their income and expenses with an intuitive dashboard, charts, and secure authentication.
 
 🚀 Features
+
 🔹 Core
 
 Add, edit, and delete Income and Expense records.
@@ -34,6 +35,7 @@ Responsive UI with modern animations.
 Backend API documentation via Swagger UI (/docs).
 
 🛠️ Tech Stack
+
 Frontend
 
 React + Vite
