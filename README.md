@@ -1,12 +1,57 @@
-# React + Vite
+💰 Expense Tracker – FastAPI + React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An Expense Tracking Web App built with FastAPI (Backend) and React (Frontend) to help users manage their income and expenses with an intuitive dashboard, charts, and secure authentication.
 
-Currently, two official plugins are available:
+🚀 Features
+🔹 Core
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Add, edit, and delete Income and Expense records.
 
-## Expanding the ESLint configuration
+Categorize transactions (e.g., Food, Travel, Salary, Shopping).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Automatic calculation of Total Balance, Total Income, and Total Expenses.
+
+🔹 Dashboard
+
+Interactive charts for visualizing spending habits.
+
+Pie chart for category-wise expense distribution.
+
+Bar chart for monthly expense trends.
+
+🔹 Authentication
+
+JWT-based Authentication with secure token storage.
+
+User Signup & Login with password hashing.
+
+Protected API routes.
+
+🔹 Other
+
+Responsive UI with modern animations.
+
+Backend API documentation via Swagger UI (/docs).
+
+🛠️ Tech Stack
+Frontend
+
+React + Vite
+
+Axios for API calls
+
+Chart.js / Recharts for data visualization
+
+CSS animations for smooth UI
+
+Backend
+
+FastAPI
+
+MongoDB
+
+Pydantic for validation
+
+Passlib for password hashing
+
+Python-Jose for JWT handling
