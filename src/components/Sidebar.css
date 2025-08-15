@@ -1,0 +1,124 @@
+.sidebar {
+  width: 100%;
+  background: white;
+  color: black;
+  padding: 40px;
+  height: 100%;
+  border-radius: 5px;
+  position: relative;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.close-btn {
+  display: none;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  cursor: pointer;
+  color: #444;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.profile img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px solid #a64bf4;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.profile h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0;
+  color: #333;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 15px 0;
+  text-align: center;
+}
+
+.sidebar a {
+  color: black;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 10px 15px;
+  display: block;
+  border-radius: 6px;
+  transition: background 0.2s ease, color 0.2s ease;
+  font-family: sans-serif;
+}
+
+.sidebar a:hover {
+  background: rgba(108, 99, 255, 0.1);
+}
+
+.active-link {
+  background: linear-gradient(90deg, #a64bf4, #6c63ff);
+  color: white !important;
+  border-radius: 6px;
+}
+
+.logout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.logout button {
+  border: none;
+  background-color: #ff4d4d;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(255, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.logout button:hover {
+  background-color: #e60000;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(255, 0, 0, 0.3);
+}
+
+.logout button:active {
+  transform: translateY(1px);
+  box-shadow: 0 3px 6px rgba(255, 0, 0, 0.2);
+}
+
+
+@media (max-width: 768px) {
+  .close-btn {
+    display: block;
+  }
+
+  .sidebar {
+    padding: 15px;
+  }
+
+  .profile img {
+    width: 65px;
+    height: 65px;
+  }
+
+  .profile h3 {
+    font-size: 1rem;
+  }
+}
