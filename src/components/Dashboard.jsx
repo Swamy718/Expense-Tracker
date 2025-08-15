@@ -20,7 +20,7 @@ function Dashboard() {
         const fetchData = async () => {
             try {
                 const token = localStorage.getItem('access_token');
-                const response = await axios.get('https://expense-tracker-backend-w8hm.onrender.com/info', {
+                const response = await axios.get('https://expense-tracker-backend-e1eq.onrender.com/info', {
                     headers: {
                         Authorization: `Bearer ${token}`
                     }
@@ -38,7 +38,7 @@ function Dashboard() {
         const fetchRecentData = async () => {
             try {
                 const token = localStorage.getItem('access_token');
-                const response = await axios.get('https://expense-tracker-backend-w8hm.onrender.com/recent-trans', {
+                const response = await axios.get('https://expense-tracker-backend-e1eq.onrender.com/recent-trans', {
                     headers: {
                         Authorization: `Bearer ${token}`
                     }
@@ -55,7 +55,7 @@ function Dashboard() {
         const fetchIncomeData = async () => {
             try {
                 const token = localStorage.getItem('access_token');
-                const response = await axios.get('https://expense-tracker-backend-w8hm.onrender.com/recent-incomes', {
+                const response = await axios.get('https://expense-tracker-backend-e1eq.onrender.com/recent-incomes', {
                     headers: {
                         Authorization: `Bearer ${token}`
                     }
@@ -72,7 +72,7 @@ function Dashboard() {
         const fetchExpenseData = async () => {
             try {
                 const token = localStorage.getItem('access_token');
-                const response = await axios.get('https://expense-tracker-backend-w8hm.onrender.com/recent-expenses', {
+                const response = await axios.get('https://expense-tracker-backend-e1eq.onrender.com/recent-expenses', {
                     headers: {
                         Authorization: `Bearer ${token}`
                     }
@@ -89,7 +89,7 @@ function Dashboard() {
         const fetchExpenseSubcategoryData = async () => {
             try {
                 const token = localStorage.getItem('access_token');
-                const response = await axios.get('https://expense-tracker-backend-w8hm.onrender.com/expense/subcategory', {
+                const response = await axios.get('https://expense-tracker-backend-e1eq.onrender.com/expense/subcategory', {
                     headers: {
                         Authorization: `Bearer ${token}`
                     }
@@ -106,7 +106,7 @@ function Dashboard() {
         const fetchLastDaysIncome = async () => {
             try {
                 const token = localStorage.getItem('access_token');
-                const response = await axios.get('https://expense-tracker-backend-w8hm.onrender.com/income/last5days', {
+                const response = await axios.get('https://expense-tracker-backend-e1eq.onrender.com/income/last5days', {
                     headers: {
                         Authorization: `Bearer ${token}`
                     }

@@ -13,7 +13,7 @@ function Profile() {
     const verify_token = async () => {
       try {
         const token = localStorage.getItem("access_token");
-        const res = await axios.get("https://expense-tracker-backend-w8hm.onrender.com/verify-token", {
+        const res = await axios.get("https://expense-tracker-backend-e1eq.onrender.com/verify-token", {
           headers: {
             Authorization: `Bearer ${token}`
           }

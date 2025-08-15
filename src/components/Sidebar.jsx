@@ -12,7 +12,7 @@ export default function Sidebar({ closeSidebar }) {
     const fetchProfile = async () => {
       const token = localStorage.getItem("access_token");
       try {
-        const response = await axios.get("https://expense-tracker-backend-w8hm.onrender.com/profile", {
+        const response = await axios.get("https://expense-tracker-backend-e1eq.onrender.com/profile", {
           headers: {
             Authorization: `Bearer ${token}`
           }

@@ -20,7 +20,7 @@ function Income() {
     const fetchData = async () => {
       try {
         const token = localStorage.getItem('access_token');
-        const response = await axios.get('https://expense-tracker-backend-w8hm.onrender.com/income/last10days', {
+        const response = await axios.get('https://expense-tracker-backend-e1eq.onrender.com/income/last10days', {
           headers: {
             Authorization: `Bearer ${token}`
           }
@@ -38,7 +38,7 @@ function Income() {
     const fetchIncomeData = async () => {
       try {
         const token = localStorage.getItem('access_token');
-        const response = await axios.get('https://expense-tracker-backend-w8hm.onrender.com/income', {
+        const response = await axios.get('https://expense-tracker-backend-e1eq.onrender.com/income', {
           headers: {
             Authorization: `Bearer ${token}`
           }
@@ -60,7 +60,7 @@ function Income() {
     e.preventDefault();
     try {
       const token = localStorage.getItem("access_token");
-      const response = await axios.post('https://expense-tracker-backend-w8hm.onrender.com/income',
+      const response = await axios.post('https://expense-tracker-backend-e1eq.onrender.com/income',
         {
           amount: amount,
           source: source,
@@ -88,7 +88,7 @@ function Income() {
   const deleteIncome = async (id) => {
     try {
       const token = localStorage.getItem("access_token");
-      const response = await axios.delete(`https://expense-tracker-backend-w8hm.onrender.com/income?income_id=${id}`,
+      const response = await axios.delete(`https://expense-tracker-backend-e1eq.onrender.com/income?income_id=${id}`,
         {
           headers: {
             Authorization: `Bearer ${token}`,

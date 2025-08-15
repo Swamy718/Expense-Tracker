@@ -31,7 +31,7 @@ function SignUp() {
     setError("");
     setLoading(true);
     try {
-      const response = await axios.post('https://expense-tracker-backend-w8hm.onrender.com/register',
+      const response = await axios.post('https://expense-tracker-backend-e1eq.onrender.com/register',
         {
           username: username,
           email: email,
